@@ -31,7 +31,8 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/spades?currentSchema=spades_webinterface_config
+    url: jdbc:postgresql://localhost:5433/test
+    #spades?currentSchema=spades_webinterface_config
     username: postgres
     password: 123
     
@@ -95,4 +96,4 @@ logging:
 
 #  Server configuration
 server:
-  port: 8081
+  port: 8095
